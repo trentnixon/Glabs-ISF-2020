@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>PowerGrid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ISF_Desktop" transform="translate(-684.000000, -3251.000000)">
+            <g id="Draining-Super" transform="translate(200.000000, 2845.000000)">
+                <g id="Projects-Include" transform="translate(0.000000, 338.000000)">
+                    <g id="PowerGrid" transform="translate(484.000000, 68.000000)">
+                        <g id="Group-23">
+                            <polygon id="Fill-1" fill="#79C9CC" points="114 102.001692 106 110.001077 84.002 110.001077 68.002 104.001538 52 110.001077 20 102.001692 0 106.001385 0 124 128 124 128 98"></polygon>
+                            <polygon id="Fill-2" fill="#FFFFFF" points="64 86 104 126 76 72 52 72 24 126"></polygon>
+                            <polygon id="Fill-3" fill="#FFFFFF" points="76 72 76 20 70 2 58 2 52 20 52 72"></polygon>
+                            <polygon id="Fill-4" fill="#2D2D2E" points="44 128 128 128 128 124 44 124"></polygon>
+                            <polygon id="Fill-5" fill="#2D2D2E" points="0 128 40 128 40 124 0 124"></polygon>
+                            <polygon id="Fill-6" fill="#EFC72E" points="30 78 34 78 34 72 30 72"></polygon>
+                            <polygon id="Fill-7" fill="#EFC72E" points="38 78 42 78 42 72 38 72"></polygon>
+                            <polygon id="Fill-8" fill="#EFC72E" points="94 78 98 78 98 72 94 72"></polygon>
+                            <polygon id="Fill-9" fill="#EFC72E" points="86 78 90 78 90 72 86 72"></polygon>
+                            <polygon id="Fill-10" fill="#EFC72E" points="102 74 82 74 82 70 97.172 70 75.172 48 52.828 48 30.828 70 46 70 46 74 26 74 26 69.172 51.172 44 76.828 44 102 69.172"></polygon>
+                            <polygon id="Fill-11" fill="#EFC72E" points="30 52 34 52 34 46 30 46"></polygon>
+                            <polygon id="Fill-12" fill="#EFC72E" points="94 52 98 52 98 46 94 46"></polygon>
+                            <polygon id="Fill-13" fill="#EFC72E" points="102 48 86 48 86 44 97.172 44 75.172 22 52.828 22 30.828 44 42 44 42 48 26 48 26 43.172 51.172 18 76.828 18 102 43.172"></polygon>
+                            <polygon id="Fill-14" fill="#2D2D2E" points="50 74.8388779 102.163128 127 105 124.163128 52.8368717 72"></polygon>
+                            <polygon id="Fill-15" fill="#2D2D2E" points="23 124.163128 25.8368717 127 78 74.8388779 75.1631283 72"></polygon>
+                            <polygon id="Fill-16" fill="#2D2D2E" points="50.4749166 23.8191171 73.9837917 47.1595727 73.9837917 47.5004984 50.2560333 71.0602629 22 125.163786 25.5643848 127 53.5352673 73.4427558 78 49.1532906 78 45.5067805 53.3143759 21"></polygon>
+                            <polygon id="Fill-17" fill="#2D2D2E" points="50 45.5072415 50 49.1538201 74.4647327 73.4437422 102.435615 127 106 125.165745 77.8885502 71.334349 54.0162083 47.5009969 54.0162083 47.1600647 77.5250834 23.8191701 74.6856241 21"></polygon>
+                            <polygon id="Fill-18" fill="#2D2D2E" points="52 74 76 74 76 70 52 70"></polygon>
+                            <polygon id="Fill-19" fill="#2D2D2E" points="56.558 0 50 19.676 50 72 54 72 54 20.324 59.442 4 68.558 4 74 20.324 74 72 78 72 78 19.676 71.442 0"></polygon>
+                            <polygon id="Fill-20" fill="#2D2D2E" points="62 120 66 120 66 116 62 116"></polygon>
+                            <polygon id="Fill-21" fill="#2D2D2E" points="70 120 74 120 74 116 70 116"></polygon>
+                            <polygon id="Fill-22" fill="#2D2D2E" points="54 120 58 120 58 116 54 116"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

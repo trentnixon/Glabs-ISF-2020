@@ -1,0 +1,13 @@
+.Section1{
+  padding: 0 3rem .5rem;
+  p{
+    font-size: 1.125rem;
+    line-height: 1.7rem;
+    color: $color_Para;
+    font-weight: 400;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 0rem 0rem .5rem;
+  }
+} 

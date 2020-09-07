@@ -1,0 +1,71 @@
+#Header{
+
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height:$HeaderHeight;
+    background-color: #efc72e;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   // @import "./BackgroundImageContainer";
+
+   .PaidforBy {
+     position: absolute;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 1rem 0rem 0 0;
+    font-family: "TS3 Text Sans";
+    font-size: .9rem;
+    color: #434346;
+    img{ 
+          width: 150px;
+          margin: 0 1rem;}
+      }
+
+   .FlexHeader{
+        height:$HeaderHeight;
+        position: relative;
+        @include FlexBoxBasic( $direction:column ,$justify:space-between);
+        //TopBanner
+      //  @import "./Sponsor_Top";
+
+        // Main Titles
+        @import "./MainTitle";
+        
+        @media only screen and  (max-width : 576px) { height:$headerHeightSmall;  }
+   }
+  
+   @media only screen and  (max-width : 576px) { 
+      height:$headerHeightSmall;  
+
+      .PaidforBy {
+        padding: .5rem 0rem 0 0;
+        font-size: .7rem;
+        img{ width: 100px; margin: 0 .5rem;}
+      }
+    }
+}
+
+@media only screen and  (min-width : 768px) and  (max-width : 1024px) { 
+  #Header{
+    background-size: cover;
+  }
+}
+
+@media only screen and  (min-width : 568px) and  (max-width : 768px) { 
+  #Header{
+    background-size: cover;
+
+  }
+}
+@media only screen  and (max-width : 568px) { 
+  #Header{
+    background-size: cover;
+
+  }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="100px" viewBox="0 0 84 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>WomanIcon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 100 84 100 84 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ISF_Desktop" transform="translate(-520.000000, -2636.000000)">
+            <g id="Less-Super" transform="translate(200.000000, 2401.000000)">
+                <g id="Gender" transform="translate(320.000000, 72.000000)">
+                    <g id="WomanIcon" transform="translate(0.000000, 163.000000)">
+                        <g id="Group-21">
+                            <path d="M61.3,18.9 C59.8132333,6.94575 55.0333333,0 47.2,0 C46.3336333,0 45.6333333,0.7056 45.6333333,1.575 C45.6333333,1.575 44.0666667,0 39.3666667,0 C31.5333333,0 25.1867667,6.94575 23.7,18.9 L19,63 L66,63 L61.3,18.9 Z" id="Fill-1" fill="#00A8E9"></path>
+                            <path d="M70,62.2857143 L57.5555556,56 L26.4444444,56 L14,62.2857143 C6.90511111,65.8685714 0,68.5714286 0,78 L0,100 L84,100 L84,78 C84,68.5714286 77.0948889,65.8685714 70,62.2857143" id="Fill-3" fill="#FFFFFF"></path>
+                            <polygon id="Fill-5" fill="#FFFFFF" points="52 51.5714286 42.5 61 33 51.5714286 33 39 52 39"></polygon>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-8"></g>
+                            <polygon id="Fill-7" fill="#2D2D2E" mask="url(#mask-2)" points="14 100 17 100 17 84 14 84"></polygon>
+                            <polygon id="Fill-9" fill="#2D2D2E" mask="url(#mask-2)" points="67 100 70 100 70 84 67 84"></polygon>
+                            <polygon id="Fill-10" fill="#FFFFFF" mask="url(#mask-2)" points="56 55.875 48.5 64 44 59.125 51.5 51"></polygon>
+                            <polygon id="Fill-11" fill="#FFFFFF" mask="url(#mask-2)" points="28 55.875 35.5 64 40 59.125 32.5 51"></polygon>
+                            <path d="M45.4399704,59.0700037 L47.9299963,61.5600296 L53.5600296,55.9299963 L51.0700037,53.4399704 L45.4399704,59.0700037 Z M47.9299963,66 L41,59.0700037 L51.0700037,49 L58,55.9299963 L47.9299963,66 Z" id="Fill-12" fill="#2D2D2E" mask="url(#mask-2)"></path>
+                            <path d="M30.4399704,55.9299963 L36.0700037,61.5600296 L38.5600296,59.0700037 L32.9299963,53.4399704 L30.4399704,55.9299963 Z M36.0700037,66 L26,55.9299963 L32.9299963,49 L43,59.0700037 L36.0700037,66 Z" id="Fill-13" fill="#2D2D2E" mask="url(#mask-2)"></path>
+                            <polygon id="Fill-14" fill="#2D2D2E" mask="url(#mask-2)" points="41 72 44 72 44 69 41 69"></polygon>
+                            <polygon id="Fill-15" fill="#2D2D2E" mask="url(#mask-2)" points="41 81 44 81 44 78 41 78"></polygon>
+                            <polygon id="Fill-16" fill="#2D2D2E" mask="url(#mask-2)" points="41 91 44 91 44 88 41 88"></polygon>
+                            <polygon id="Fill-17" fill="#2D2D2E" mask="url(#mask-2)" points="41 100 44 100 44 97 41 97"></polygon>
+                            <polygon id="Fill-18" fill="#EFC72E" mask="url(#mask-2)" points="50 81 64 81 64 78 50 78"></polygon>
+                            <polygon id="Fill-19" fill="#2D2D2E" mask="url(#mask-2)" points="41 61 44 61 44 58 41 58"></polygon>
+                            <path d="M48.2222222,14 C49.7777778,21.7272727 56,23.2727273 56,23.2727273 C56,35.6363636 54.4444444,46.4545455 42,48 C29.5555556,46.4545455 28,35.6363636 28,23.2727273 C28,23.2727273 45.1111111,24.8181818 48.2222222,14" id="Fill-20" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

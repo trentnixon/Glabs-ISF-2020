@@ -1,0 +1,144 @@
+/************ 
+** Application Variables
+*************/
+
+// Import Application Elements
+
+$Path:"https://gdn-cdn.s3.amazonaws.com/embed/2020/07/ISF2020";
+$fonts:"assets/fonts/";
+
+@mixin ParentIcons($Path, $icon, $color) {
+    background-color: $color; 
+    background-image: url($Path+"/assets/images/"+$icon);
+  }
+
+
+  @font-face {
+    font-display: swap;
+    font-family: "TS3 Text Sans";
+    src: url("#{$http+$fonts}TS3TextSans.woff2") format("woff2"),
+         url("#{$http+$fonts}TS3TextSans.woff") format("woff");
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: "TS3 Text Sans";
+    font-weight: bold;
+    src: url("#{$http+$fonts}TS3TextSans-Bold.woff2") format("woff2"),
+         url("#{$http+$fonts}TS3TextSans-Bold.woff") format("woff");
+  }
+
+
+@import "./_Colors.scss";
+
+
+
+#Main{
+    font-family: "Guardian Headline Full", "san-serif";
+    min-height: 100vh;
+    position: relative;
+    .ISF{ 
+      
+      overflow: hidden;
+     
+          background: rgb(172,242,255);
+          background: -moz-linear-gradient(180deg, rgba(172,242,255,1) 0%, rgba(255,244,220,1) 27%, rgba(255,245,220,1) 57%, rgba(255,238,228,1) 72%, rgba(172,242,255,1) 90%);
+          background: -webkit-linear-gradient(180deg, rgba(172,242,255,1) 0%, rgba(255,244,220,1) 27%, rgba(255,245,220,1) 57%, rgba(255,238,228,1) 72%, rgba(172,242,255,1) 90%);
+          background: linear-gradient(180deg, rgba(172,242,255,1) 0%, rgba(255,244,220,1) 27%, rgba(255,245,220,1) 57%, rgba(255,238,228,1) 72%, rgba(172,242,255,1) 90%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#acf2ff",endColorstr="#acf2ff",GradientType=1);
+    
+/*
+      background: rgb(172,242,255);
+      background: -moz-linear-gradient(180deg, rgba(172,242,255,1) 0%, rgba(254,232,185,1) 27%, rgba(254,232,185,1) 71%, rgba(172,242,255,1) 90%);
+      background: -webkit-linear-gradient(180deg, rgba(172,242,255,1) 0%, rgba(254,232,185,1) 27%, rgba(254,232,185,1) 71%, rgba(172,242,255,1) 90%);
+      background: linear-gradient(180deg, rgba(172,242,255,1) 0%, rgba(254,232,185,1) 27%, rgba(254,232,185,1) 71%, rgba(172,242,255,1) 90%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#acf2ff",endColorstr="#acf2ff",GradientType=1); 
+          */ 
+
+      .Section{
+          padding: 1rem 3rem;
+
+          p, h1, h2{
+            padding: 0;
+            margin: 0.5rem 0 ;
+            width: 80%;
+          }
+         
+
+          p{
+            font-size: 1rem;
+            line-height: 1.7rem;
+            color: $color_Para;
+            font-weight: 100;
+   
+          }
+          p.Footnote{
+            border-bottom:1px solid #e1e1e1;
+            padding-bottom: .5rem;
+            display: inline-block;
+            width: 100%;
+            small{
+              font-style: italic;            }
+          }
+
+          h1{
+            font-size: 2.25rem;
+            line-height: 2.7rem;
+            color: $color_H1;
+          }
+          h2{
+            font-size: 2.25rem;
+            line-height: 3rem;
+            color: $color_H1;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+          }
+
+          @media only screen and (max-width: 1024px) {
+            p, h1, h2{
+              padding: 0;
+              margin: 0.5rem 0 ;
+              width: 90%;
+            }
+          }
+          @media only screen and (max-width: 768px) {
+            padding: 1rem;
+            p, h1, h2{
+              width: 100%;
+            }
+            h2{
+              line-height: 2.5rem;
+            }
+          }
+
+
+          @media only screen and (max-width: 400px) {
+           padding: 0;
+            h1{
+              font-size: 2.2rem;
+              line-height: 2.5rem;
+             }
+            h2{
+             font-size: 2rem;
+             line-height: 2.3rem;
+            }
+          }
+
+      }
+
+      @import "./ISF/Section1";
+      @import "./ISF/Section2";
+      @import "./ISF/Section3";
+      @import "./ISF/Section4";
+      @import "./ISF/Section5";
+      @import "./ISF/Section6";
+      @import "./ISF/Section7";
+      @import "./ISF/Section8";
+      @import "./ISF/Section9";
+      @import "./ISF/Section10";
+    
+ 
+    }
+}
+ 
+

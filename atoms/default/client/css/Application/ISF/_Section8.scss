@@ -1,0 +1,101 @@
+.Section8{
+    padding: 1rem 3rem ;
+
+    h1{
+        margin-bottom: 2rem;
+    }
+    .Blocks{
+        //background-color: red;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+       flex-wrap: nowrap;
+       margin: 1rem 0 ;
+       justify-content: stretch;
+       align-content: stretch;
+       align-items: stretch;
+       min-height: 150px;
+        
+        .Block{
+            overflow: hidden;
+            height: 150px;
+            width: 20%;
+            padding: 2%;
+            margin: 0 1%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            font-family: $FontFamilyHeader;
+
+            background: rgb(255,255,255);
+            background: -moz-linear-gradient(320deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+            background: -webkit-linear-gradient(320deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+            background: linear-gradient(320deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+
+            h1{ color: #79C9CC; margin: 0; font-size: 3rem; line-height: 3rem;}
+            h2{ color: #79C9CC; margin: 0; text-transform: capitalize; font-weight: 600;}
+
+            p{
+                 
+                    margin: 0;
+                    font-size: 1.1rem;
+                    line-height: 1.2rem;
+
+            }
+           
+        }
+        .Block1{
+           //background-color: white;
+        }
+        .Block2{
+            //background-color: #e1e1e1;
+        }
+        .Block3{
+            //background-color: white;
+        } 
+        .Block4{
+            //background-color: #e1e1e1;
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .Blocks{
+       
+            .Block{
+            
+                h1{ font-size:2.2rem; line-height: 2.3rem;}
+                h2{font-size:1.6rem;line-height: 1.8rem;}
+                p{ font-size: .9rem; line-height: 1.1rem;}
+            }
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        padding: 1rem 0rem .5rem;
+        .Blocks{
+            flex-wrap: wrap;
+            .Block{
+                width: 44%;
+                h1{ font-size:2.5rem; line-height: 2.7rem;}
+                h2{font-size:2rem;line-height: 2.2rem;}
+                p{ font-size: .9rem;}
+            }
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+
+        .Blocks{
+           
+            .Block{
+               h1{ font-size:2.3rem; line-height: 2.5rem;}
+               h2{font-size:1.8rem;line-height: 2rem;}
+               p{ font-size: .9rem;}
+            }
+        }
+    }
+   
+  }
