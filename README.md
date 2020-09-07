@@ -1,2 +1,8 @@
-# Westpack Scholars 2020
 # Glabs-ISF-2020
+
+Clone Repo
+
+Run  : npm install
+
+Start : Gulp 
+
