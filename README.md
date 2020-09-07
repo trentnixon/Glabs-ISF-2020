@@ -4,5 +4,9 @@ Clone Repo
 
 Run  : npm install
 
-Start : Gulp 
+Start : Gulp  
+
+Deploy : Gulp deploylive
+
+Composer URL : Gulp url
 
